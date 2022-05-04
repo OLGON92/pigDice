@@ -6,7 +6,7 @@ function Player(playerNumber) {
   this.currentRoll = 0;
 }
 
-function Rolldice(){
+function rollDice(){
   let diceRoll = Math.floor((Math.random() * 6) + 1);
   return diceRoll;
 }
